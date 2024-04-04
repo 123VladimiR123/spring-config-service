@@ -8,8 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:123VladimiR123/server-config.git
-          username: username
-          password: password
+          uri: https://github.com/123VladimiR123/server-config.git
           default-label: main
           search-paths: "{application}"
